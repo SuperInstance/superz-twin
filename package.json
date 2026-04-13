@@ -1,0 +1,42 @@
+{
+  "name": "superz-twin",
+  "description": "Digital twin of Super Z — standalone API-agnostic git-agent with FLUX-native cognition",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "superz": "./bin/superz.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "onboarding": "node bin/superz.js onboard",
+    "dev": "node --watch bin/superz.js",
+    "test": "jest --detectOpenHandles --forceExit",
+    "lint": "eslint src/ bin/ tests/"
+  },
+  "keywords": [
+    "digital-twin",
+    "git-agent",
+    "ai-agent",
+    "flux",
+    "autonomous-coding",
+    "api-agnostic"
+  ],
+  "author": "Super Z <superz@flux.fleet>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "glob": "^10.3.10",
+    "inquirer": "^9.2.15",
+    "ora": "^8.0.1",
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
