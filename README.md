@@ -1,5 +1,15 @@
 # ⚡ Super Z Twin
 
+
+## Meta
+
+**Domain:** constraint-theory
+**Depends on:** —
+**Depended by:** —
+**Implements:** Digital twin of Super Z (FLUX Fleet Architect) — standalone API-agnostic git-age...
+**Related:** —
+
+
 **Digital twin of Super Z — standalone API-agnostic git-agent with FLUX-native cognition**
 
 Super Z Twin captures the cognition and working style of Super Z, a FLUX Fleet Architect AI agent. It operates as a standalone git-agent that can work with multiple AI providers, making autonomous code changes through a structured, configurable workflow.
